@@ -1,0 +1,29 @@
+{   
+    // Specify path to relevant Cargo.toml files,
+    // all other Cargo.toml files are ignored.
+    "rust-analyzer.linkedProjects": [
+        "oak_functions/lookup_data_generator/Cargo.toml",
+        "oak_functions/loader/Cargo.toml",
+        "oak_functions/loader/fuzz/Cargo.toml",
+        "oak_functions/abi/Cargo.toml",
+        "oak_functions/sdk/Cargo.toml",
+        "oak_functions/sdk/test_utils/Cargo.toml",
+        "oak_functions/sdk/oak_functions/Cargo.toml",
+        "oak_functions/client/rust/Cargo.toml",
+        "oak_functions/examples/mobilenet/module/Cargo.toml",
+        "oak_functions/examples/mobilenet/client/rust/Cargo.toml",
+        "oak_functions/examples/fuzzable/module/Cargo.toml",
+        "oak_functions/examples/Cargo.toml",
+        "oak_functions/examples/metrics/module/Cargo.toml",
+        "oak_functions/examples/metrics/client/rust/Cargo.toml",
+        "oak_functions/examples/weather_lookup/module/Cargo.toml",
+        "oak_functions/examples/key_value_lookup/module/Cargo.toml",
+        "oak_functions/location_utils/Cargo.toml",
+        "oak_functions/load_test/Cargo.toml",
+    ],
+
+    "rust-analyzer.cargo.loadOutDirsFromCheck": true,
+
+    "rust-analyzer.procMacro.enable": false
+
+}

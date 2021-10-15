@@ -22,7 +22,8 @@ cargo-timing*.html
 **/node_modules/
 
 # Generated vscode files.
-**/.vscode/
+# Allow to share workspace settings of VS Code
+# **/.vscode/
 
 # emacs stuff
 *~
